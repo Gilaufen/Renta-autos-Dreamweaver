@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Quicksand", system-ui;
+}
+
+.information{
+	margin-top: 1%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	width: 100vw;
+	height: 80vh;
+}
+
+.img_galery{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 4%;
+	border-bottom: 1px solid #A05C7B;
+	
+	}
+
+.imgg, #carro1, #carro2, #carro3{
+	position: absolute;
+}
+
+.div_contacto{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding: 5%;
+	box-shadow: 0 0 10px 1px #A05C7B;
+	border-radius: 20px;
+	width: 80%;
+}
+
+strong{
+	color: #944654;
+	font-weight: normal;
+}
+
+.div_contacto .contacto_info p {
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+}
+
+.contacto_info{
+	width: 80%;
+}
+.information #contenedor_principal .div_contacto h3 {
+	color: #2F4550;
+	font-size: 30px;
+	font-weight: 400;
+}

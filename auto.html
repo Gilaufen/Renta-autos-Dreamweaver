@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Sitio Web Para Automoviles</title>
+<style type="text/css">
+.titulo {
+	box-shadow: 0 0 5px 2px gray;
+	width: auto;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color:#f4f4f9;
+	border-radius: 0px 0px 20px 20px;
+	background-color: #2F4550;
+}
+.titulo h1 {
+	font-family: "Quicksand", system-ui;
+	font-style: normal;
+	font-weight: 400;
+}
+	
+#barra_nav {
+	font-family: "Quicksand", system-ui;
+	font-style: normal;
+	font-weight: 300;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	padding: 2%;
+	width: 20%;
+	height: 100%;
+	position: relative;
+	bottom: auto;
+	border-radius: 20px;
+	box-shadow: 0 0 5px 2px lightgray;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 1.5rem;
+	}
+	
+	
+#contenedor_principal {
+	width: 70%;
+	margin-left: 5%;
+	padding-top: 5%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+#barra_nav .nav_links {
+	text-decoration: none;
+	color: #2f4550;
+	font: bolder;
+}
+.information #barra_nav h2 {
+	color: #944654;
+	font-family: "Quicksand", system-ui;
+	font-style: normal;
+	font-weight: 700;
+}
+	
+#show_content {
+	height: 500px;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	visibility: hidden;
+}
+.hola {
+}
+</style>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script>
+var __adobewebfontsappname__="dreamweaver"
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+</script>
+<script src="http://use.edgefonts.net/quicksand:n3,n4,n7:default.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+
+<body>
+<div class="titulo">
+	<h1>Renta tu automóvil <span class="material-symbols-outlined">
+directions_car
+</span><span class="material-symbols-outlined">
+paid
+</span></h1>
+</div>
+<div class="information">
+	<div id="barra_nav">
+      <h2><span class="material-symbols-outlined">menu_book</span>  Menú</h2>
+	  <a href="index.html" class="nav_links">Página Principal</a>
+		<a href="auto.html" class="nav_links">Autos</a>
+		<a href="contacto.html" class="nav_links">Contacto</a>
+		<a href="servicio1.html" class="nav_links">Servicios</a>
+	</div>
+  <div id="contenedor_principal">
+	  <h1 style="font-weight: 300;">Escoge tu auto ideal</h1>
+	  <br>
+		<div class="img_galery class=&quot;imgg&quot;">
+			<img src="img/carro1.png" alt="" width="200" height="100" onmouseover="MM_showHideLayers('hola1','','show')" onmouseout="MM_showHideLayers('hola1','','hide')"/>
+			<img src="img/carro2.png" alt="" width="180" height="100" onmouseover="MM_showHideLayers('hola2','','show')" onmouseout="MM_showHideLayers('hola2','','hide')"/> 
+			<img src="img/carro3.png" alt="" width="180" height="100" onmouseover="MM_showHideLayers('hola3','','show')" onmouseout="MM_showHideLayers('hola3','','hide')"/> </div>
+		<div id="show_content">
+		  <img src="img/carro1.png" alt="" width="474" height="269" class="imgg" id="hola1"/>
+		  <img class="imgg" src="img/carro2.png" width="474" height="269" id="hola2" alt=""/>
+		  <img class="imgg" src="img/carro3.png" width="474" height="269" id="hola3" alt=""/>
+	  </div>
+		
+	</div>
+</div>
+
+	
+</body>
+</html>
+
